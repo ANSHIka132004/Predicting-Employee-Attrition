@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Attrition Prediction</title>
+</head>
+<body>
+    <h2>Employee Attrition Prediction</h2>
+    <form action="/predict" method="post">
+        <div>
+            <label>Age:</label>
+            <input type="number" name="age" required>
+        </div>
+        <div>
+            <label>Monthly Income:</label>
+            <input type="number" name="income" required>
+        </div>
+        <div>
+            <label>Overtime:</label>
+            <select name="overtime" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <!-- Add other fields -->
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
