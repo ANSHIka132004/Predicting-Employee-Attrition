@@ -4,6 +4,12 @@
 This is a Flask-based web app that predicts whether an employee will leave the company, using a machine learning model trained on HR data.
 
 ---
+## Built With
+-Python
+-Flask
+-XGBoost
+-LightGBM
+-Pandas / NumPy / Scikit-learn
 
 ## 📁 Project Files
 
@@ -19,20 +25,13 @@ This is a Flask-based web app that predicts whether an employee will leave the c
 ## 🚀 How to Run
 
 ### 1. Install required libraries
-```bash
-pip install flask pandas numpy scikit-learn xgboost lightgbm imbalanced-learn joblib
+--pip install flask pandas numpy scikit-learn xgboost lightgbm imbalanced-learn joblib
 Train the model
-//python model.py
-3. Start the Flask app
-//python app.py
+--python model.py
+Start the Flask app
+--python app.py
+Test the Model (optional)
+--Use test_model.py to test the saved model with sample input:
+-python test_model.py
 
- Built With
--Python
 
--Flask
-
--XGBoost
-
--LightGBM
-
--Pandas / NumPy / Scikit-learn
