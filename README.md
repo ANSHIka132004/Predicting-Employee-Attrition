@@ -1,5 +1,4 @@
-# Predicting-Employee-Attrition
-# 🧠 Employee Attrition Prediction
+ Employee Attrition Prediction
 
 This is a Flask-based web app that predicts whether an employee will leave the company, using a machine learning model trained on HR data. This project is part of online course by Codeclause.
 
